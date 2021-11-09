@@ -1,2 +1,2 @@
 # LampreyBrainAtlas
-A comprehensive single-cell atlas of the sea-lamprey brain.
+**A comprehensive single-cell atlas of the sea-lamprey brain.**
