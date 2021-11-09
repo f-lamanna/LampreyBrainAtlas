@@ -1,0 +1,211 @@
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #000000;
+}
+
+nav>ol {
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+li.navbar>a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* Site header */
+h1 {
+  margin-top: 0;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* Site paragraph */
+p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+/* Images (index.html)*/
+.row {
+  display: flex;
+}
+
+div.column {
+  position: relative;
+  flex: 50%;
+  padding: 100px 100px 100px 100px;
+
+}
+
+img.column {
+  transition: transform .5s ease;
+}
+
+img.column:hover {
+  transform: scale(1.2);
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  bottom: 0;
+}
+
+/* Images (adult.html)*/
+div.container {
+  position: relative;
+  max-width: 620px;
+  max-height: 237px;
+  display: block;
+  margin: auto;
+}
+
+#background {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#overlay1 {
+  position: absolute;
+  display: block;
+  width: 178px;
+  bottom: 47px;
+  left: 2px;
+  opacity: 0;
+  z-index: 2;
+}
+
+#overlay1:hover {
+  opacity: 1;
+}
+
+#overlay2 {
+  position: absolute;
+  display: block;
+  width: 217px;
+  bottom: 3px;
+  left: 59px;
+  opacity: 0;
+  z-index: 0;
+}
+
+#overlay2:hover {
+  opacity: 1;
+}
+
+#overlay3 {
+  position: absolute;
+  display: block;
+  width: 115px;
+  bottom: 60px;
+  left: 236px;
+  opacity: 0;
+  z-index: 1;
+}
+
+#overlay3:hover {
+  opacity: 1;
+}
+
+#overlay4 {
+  position: absolute;
+  display: block;
+  width: 337px;
+  bottom: 30px;
+  left: 282px;
+  opacity: 0;
+  z-index: 0;
+}
+
+#overlay4:hover {
+  opacity: 1;
+}
+
+/* Images (ammocoete.html)*/
+#am_container {
+  position: relative;
+  max-width: 712px;
+  max-height: 228px;
+  display: block;
+  margin: auto;
+}
+
+#am_background {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#am_overlay1 {
+  position: absolute;
+  display: block;
+  width: 120px;
+  bottom: 40px;
+  left: 3px;
+  opacity: 0;
+  z-index: 2;
+}
+
+#am_overlay1:hover {
+  opacity: 1;
+}
+
+#am_overlay2 {
+  position: absolute;
+  display: block;
+  width: 179px;
+  bottom: 3px;
+  left: 55px;
+  opacity: 0;
+  z-index: 0;
+}
+
+#am_overlay2:hover {
+  opacity: 1;
+}
+
+#am_overlay3 {
+  position: absolute;
+  display: block;
+  width: 89px;
+  bottom: 28px;
+  left: 179px;
+  opacity: 0;
+  z-index: 1;
+}
+
+#am_overlay3:hover {
+  opacity: 1;
+}
+
+#am_overlay4 {
+  position: absolute;
+  display: block;
+  width: 229px;
+  bottom: 9px;
+  left: 270px;
+  opacity: 0;
+  z-index: 0;
+}
+
+#am_overlay4:hover {
+  opacity: 1;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Import fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:display=swap" rel="stylesheet">
+
+    <!-- Import CSS -->
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" href="lamprey.png">
+    <title>Larval atlas</title>
+    <meta name="author" content="Francesco Lamanna">
+    <meta name="description" content="A single-cell atlas of the larval sea-lamprey brain">
+</head>
+
+<body>
+
+<!-- Navigation bar -->
+    <nav>
+        <ol>
+            <li class="navbar">
+                <a href="https://www.zmbh.uni-heidelberg.de/Kaessmann/" target="_blank">KaessmannLab</a>
+            </li>
+        </ol>
+    </nav>
+
+    <!-- Site header -->
+    <h1>Larval brain atlas</h1>
+
+    <!-- Site description -->
+    <p>Click on a brain region to open its relative atlas.</p>
+
+    <!-- Brain pictures -->
+    <div class="container" id="am_container">
+        <img src="images/am_brain_transparent.png" alt="lamprey brain" id="am_background">
+        <a href="https://apps.kaessmannlab.org/am_tele/" title="Telencephalon" target="_blank"><img src="images/am_tele.png" alt="Telencephalon" id="am_overlay1"></a>
+        <a href="https://apps.kaessmannlab.org/am_dien/" title="Diencephalon" target="_blank"><img src="images/am_di.png" alt="Diencephalon" id="am_overlay2"></a>
+        <a href="https://apps.kaessmannlab.org/am_midb/" title="Mesencephalon" target="_blank"><img src="images/am_mes.png" alt="Mesencephalon" id="am_overlay3"></a>
+        <a href="https://apps.kaessmannlab.org/am_hind/" title="Rhombencephalon" target="_blank"><img src="images/am_rhomb.png" alt="Rhombencephalon" id="am_overlay4"></a>
+    </div>
+</body>
+
+</html>

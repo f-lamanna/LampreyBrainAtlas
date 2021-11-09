@@ -1,0 +1,47 @@
+/* Modify navbarPage appearance */
+.navbar-default {
+   background-color: #B1965E;
+}
+
+.navbar-default .navbar-brand {
+    color: #D1D3D4;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #D1D3D4;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: #DBB97B;
+}
+
+/* Modify sliders appearance */
+.js-irs-0 .irs-single, 
+.js-irs-0 .irs-bar-edge, 
+.js-irs-0 .irs-bar {
+  background-color: #B1965E;
+  border-color: #B1965E;
+}
+
+.js-irs-1 .irs-single, 
+.js-irs-1 .irs-bar-edge, 
+.js-irs-1 .irs-bar {
+  background-color: #B1965E;
+  border-color: #B1965E;
+}
+
+.js-irs-2 .irs-single, 
+.js-irs-2 .irs-bar-edge, 
+.js-irs-2 .irs-bar {
+  background-color: #B1965E;
+  border-color: #B1965E;
+}
+
+.js-irs-3 .irs-single, 
+.js-irs-3 .irs-bar-edge, 
+.js-irs-3 .irs-bar {
+  background-color: #B1965E;
+  border-color: #B1965E;
+}
