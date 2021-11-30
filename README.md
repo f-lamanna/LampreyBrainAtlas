@@ -22,5 +22,9 @@ Clicking on any tip of the tree will highlight the location of the cells belongi
 ## Clusters tab
 The **Clusters** contains interactive UMAP and tSNE plots of the annotated atlases.
 
+![](atlas3.gif)
+
 ## Genes tab
-The **"Genes"** tab 
+The **Lamprey genes** tab shows all genes annotated from the sea-lamprey genome. Additional information is displayed for genes with matches to SwissProt (top blastp hit). Genes without any match display only their gene_id (e.g., MSTRG.621).
+
+The **Orthologs** tab shows sea-lamprey genes that are orthologous to any of the displayed species. Mouse orthologs are linked to the mouse brain gene expression [atlas](http://mousebrain.org/) from the Linnarson lab.
