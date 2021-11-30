@@ -27,4 +27,6 @@ The **Clusters** contains interactive UMAP and tSNE plots of the annotated atlas
 ## Genes tab
 The **Lamprey genes** tab shows all genes annotated from the sea-lamprey genome. Additional information is displayed for genes with matches to SwissProt (top blastp hit). Genes without any match display only their gene_id (e.g., MSTRG.621).
 
-The **Orthologs** tab shows sea-lamprey genes that are orthologous to any of the displayed species. Mouse orthologs are linked to the mouse brain gene expression [atlas](http://mousebrain.org/) from the Linnarson lab.
+The **Orthologs** tab shows sea-lamprey genes that are orthologous to any of the displayed species. Mouse orthologs are linked to the mouse brain gene expression [atlas](http://mousebrain.org/) from the Linnarson lab. Use the search field to retrieve any gene from the corresponding tab, select it by clicking on it and hit the Go! button to visualize its expression and other features.
+
+
