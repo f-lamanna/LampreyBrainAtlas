@@ -8,3 +8,5 @@ The atlas can be accessed here: [lampreybrain.kaessmannlab.org](https://lampreyb
 
 # Usage 
 Within each stage, click on any of the four main brain regions to open its relative atlas:
+
+![](atlas1.gif)
