@@ -5,7 +5,7 @@ This resource allows to interactively explore the single-cell atlases of the adu
 The atlas can be accessed here: [lampreybrain.kaessmannlab.org](https://lampreybrain.kaessmannlab.org/).
 
 
-**Citation:** 
+**Citation:** https://www.biorxiv.org/content/10.1101/2022.02.28.482278v1
 
 # Usage 
 Within each stage, click on any of the four main brain regions to open its relative atlas:
