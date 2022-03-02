@@ -4,6 +4,28 @@ html {
 }
 
 /* Navigation bar */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  padding: 10px 10px;
+  font-weight: 500;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+/*
 nav {
   background-color: #000000;
 }
@@ -22,6 +44,9 @@ li.navbar>a {
   color: whitesmoke;
   text-decoration: none;
 }
+*/
+
+
 
 /* Site header */
 h1 {
@@ -208,4 +233,19 @@ div.container {
 
 #am_overlay4:hover {
   opacity: 1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+  background-color: #ffffff;
+  border-top: solid thin #d3d3d3;
+}
+
+footer>div>p {
+  font-size: 12px;
 }
